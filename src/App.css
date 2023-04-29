@@ -6,6 +6,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+:root{
+  --dark: #111;
+}
+.dark, .dark .accordion-item,.dark .accordion-header button,.dark textarea {
+  color: #fff;
+  background: var(--dark);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
